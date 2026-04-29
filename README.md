@@ -113,3 +113,37 @@ kubectl get secret grafana -n monitoring -o jsonpath="{.data.admin-password}" | 
 ## Outcome
 
 Successfully deployed a real-time monitoring system that collects Kubernetes cluster metrics with Prometheus and visualizes them through Grafana dashboards — all on a fully automated, Terraform-managed EKS cluster.
+
+---
+
+## Screenshots
+
+### 1. EKS Cluster Running
+![1. EKS Cluster Running](./EKS_Cluster_Running.png)
+
+---
+
+### 2. Prometheus and Grafana Pods Running
+![2. Prometheus and Grafana Pods Running](./Prometheus_and_Grafana_Pods.png)
+
+---
+
+### 3. Prometheus UI
+![3. Prometheus UI](./Prometheus_UI_1.png)
+
+---
+
+### 4. Prometheus UI 2
+![4. Prometheus UI 2](./Prometheus_UI_2.png)
+
+---
+
+### 5. Grafana Dashboard
+![5. Grafana Dashboard](./Grafana_Dashboard_1.png)
+
+---
+
+### 6. Grafana Dashboard 2
+![6. Grafana Dashboard 2](./Grafana_Dashboard_2.png)
+
+---
